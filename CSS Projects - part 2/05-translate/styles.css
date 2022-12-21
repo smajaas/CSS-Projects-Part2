@@ -1,0 +1,22 @@
+/* 
+transform:translate(),scale()rotate(),skew()
+*/
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: salmon;
+  transform: translateX(50%);
+}
+.two {
+  background: rgb(105, 112, 237);
+  transform: translateY(-40px);
+}
+.three {
+  background: rgb(86, 233, 167);
+  /* transform: translateX(75px); */
+  transform: translate(200px, 300px);
+}
